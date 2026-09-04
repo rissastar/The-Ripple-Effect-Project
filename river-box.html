@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The River Box | The Ripple Effect Project</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #263238;
+      background: #f5fbfc;
+    }
+    nav {
+      background: #ffffff;
+      padding: 18px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #dcecef;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    nav a {
+      color: #263238;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: #2c7a7b;
+    }
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 90px 20px;
+      background: linear-gradient(180deg, #dff5f7, #f5fbfc);
+    }
+    .hero .emoji {
+      font-size: 55px;
+      margin-bottom: 15px;
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 15px;
+    }
+    .hero p {
+      max-width: 650px;
+      margin: auto;
+      font-size: 19px;
+      color: #52666b;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 70px 20px;
+    }
+    section h2 {
+      font-size: 32px;
+      margin-bottom: 18px;
+    }
+    section p {
+      margin-bottom: 15px;
+      color: #52666b;
+    }
+    .intro {
+      font-size: 20px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 20px;
+      margin-top: 35px;
+    }
+    .card {
+      background: #ffffff;
+      padding: 28px;
+      border-radius: 16px;
+      border: 1px solid #dcecef;
+      box-shadow: 0 5px 18px rgba(0, 0, 0, 0.04);
+    }
+    .card h3 {
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+    .card .icon {
+      font-size: 32px;
+      margin-bottom: 12px;
+    }
+    .note {
+      background: #e8f7f8;
+      padding: 30px;
+      border-radius: 18px;
+      margin-top: 30px;
+    }
+    .note p {
+      margin: 0;
+    }
+    .respect {
+      background: #ffffff;
+      border-radius: 18px;
+      padding: 30px;
+      border: 1px solid #dcecef;
+      margin-top: 30px;
+    }
+    footer {
+      text-align: center;
+      padding: 35px 20px;
+      background: #263238;
+      color: #ffffff;
+    }
+    footer p {
+      color: #d5e1e3;
+    }
+    @media (max-width: 700px) {
+      nav {
+        flex-direction: column;
+        gap: 12px;
+      }
+      nav a {
+        margin: 0 7px;
+        font-size: 14px;
+      }
+      .hero h1 {
+        font-size: 38px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">🌊 The Ripple Effect Project</div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="kindness-bags.html">Kindness Bags</a>
+      <a href="river-box.html">River Box</a>
+    </div>
+  </nav>
+  <header class="hero">
+    <div class="emoji">🌊📦</div>
+    <h1>The River Box</h1>
+    <p>
+      A little box by the river where kindness, creativity and community
+      can come together.
+    </p>
+  </header>
+  <section>
+    <h2>What is the River Box?</h2>
+    <p class="intro">
+      The River Box is a small community project built around one simple idea:
+      sometimes people just need a little something to make their day better.
+    </p>
+    <p>
+      It's a place where you can take something, leave something, write
+      something, create something, or simply stop for a minute and enjoy
+      where you are.
+    </p>
+    <p>
+      It doesn't have to be a big gesture. That's kind of the point.
+    </p>
+  </section>
+  <section>
+    <h2>How it works</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="icon">🎁</div>
+        <h3>Take something</h3>
+        <p>
+          If there's something inside that makes you smile or brightens
+          your day, take it.
+        </p>
+      </div>
+      <div class="card">
+        <div class="icon">💛</div>
+        <h3>Leave something</h3>
+        <p>
+          Have something small you'd like to pass along? You can leave
+          a little kindness for someone else.
+        </p>
+      </div>
+      <div class="card">
+        <div class="icon">📝</div>
+        <h3>Write something</h3>
+        <p>
+          The log book gives people a place to leave a thought, a message,
+          a drawing, or simply their name.
+        </p>
+      </div>
+      <div class="card">
+        <div class="icon">🌿</div>
+        <h3>Just be there</h3>
+        <p>
+          You don't have to take or leave anything. Sometimes sitting by
+          the river and taking a breath is enough.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>What might you find?</h2>
+    <p>
+      The River Box isn't meant to have the exact same things every time.
+      What's inside can change as people contribute and as new ideas are added.
+    </p>
+    <div class="cards">
+      <div class="card">
+        <div class="icon">🪨</div>
+        <h3>Little treasures</h3>
+        <p>
+          Small rocks, keepsakes and other little things meant to be
+          discovered.
+        </p>
+      </div>
+      <div class="card">
+        <div class="icon">⭐</div>
+        <h3>Paper stars</h3>
+        <p>
+          Tiny reminders that even something small can brighten someone's day.
+        </p>
+      </div>
+      <div class="card">
+        <div class="icon">🐟</div>
+        <h3>Creative things</h3>
+        <p>
+          Ideas like little wooden fish that people can colour and make
+          their own.
+        </p>
+      </div>
+      <div class="card">
+        <div class="icon">📖</div>
+        <h3>The log book</h3>
+        <p>
+          A place for people to leave their mark and see that other people
+          have been there too.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>A little reminder</h2>
+    <div class="note">
+      <p>
+        The River Box belongs to the community. Please help keep the space
+        clean, respectful and welcoming so the next person can enjoy it too.
+      </p>
+    </div>
+    <div class="respect">
+      <p>
+        This project is still small and growing. There will be changes,
+        new ideas and probably a few things we learn along the way.
+      </p>
+      <p>
+        That's okay. The whole idea behind The Ripple Effect Project is
+        starting small and seeing where that kindness can go.
+      </p>
+    </div>
+  </section>
+  <footer>
+    <p>
+      One small act. One person. One ripple at a time. 🌊
+    </p>
+  </footer>
+</body>
+</html>
