@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Ripple Effect Project</title>
+  <meta
+    name="description"
+    content="The Ripple Effect Project is a community kindness project creating small moments of kindness throughout East Hants and surrounding communities."
+  >
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #183b4d;
+      background: #f7fbfc;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255, 255, 255, 0.96);
+      border-bottom: 1px solid #dcecef;
+      padding: 15px 20px;
+    }
+    nav .nav-inner {
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+    nav strong {
+      font-size: 1.1rem;
+    }
+    nav a {
+      color: #183b4d;
+      text-decoration: none;
+      margin-left: 18px;
+      font-size: 0.95rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(180deg, #e5f7fb, #f7fbfc);
+    }
+    .hero-content {
+      max-width: 800px;
+    }
+    .ripple {
+      font-size: 4rem;
+      margin-bottom: 15px;
+    }
+    h1 {
+      font-size: clamp(2.5rem, 7vw, 5rem);
+      margin-bottom: 15px;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      max-width: 650px;
+      margin: 0 auto 30px;
+    }
+    .button {
+      display: inline-block;
+      padding: 13px 24px;
+      background: #183b4d;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+    }
+    .button:hover {
+      opacity: 0.9;
+    }
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 80px 20px;
+    }
+    section h2 {
+      font-size: 2.2rem;
+      margin-bottom: 18px;
+    }
+    section > p {
+      max-width: 750px;
+      margin-bottom: 35px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 18px;
+      border: 1px solid #dcecef;
+      box-shadow: 0 5px 20px rgba(24, 59, 77, 0.06);
+    }
+    .card-icon {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+    .card h3 {
+      margin-bottom: 10px;
+    }
+    .highlight {
+      background: #e5f7fb;
+      border-radius: 25px;
+      padding: 55px 30px;
+      text-align: center;
+    }
+    .highlight p {
+      max-width: 700px;
+      margin: 15px auto 0;
+      font-size: 1.15rem;
+    }
+    .help-list {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+    }
+    .help-list li {
+      background: white;
+      border: 1px solid #dcecef;
+      border-radius: 14px;
+      padding: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 50px 20px;
+      background: #183b4d;
+      color: white;
+    }
+    footer p {
+      margin: 8px 0;
+    }
+    @media (max-width: 700px) {
+      nav .nav-inner {
+        flex-direction: column;
+      }
+      nav a {
+        margin: 0 7px;
+      }
+      .hero {
+        min-height: 70vh;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-inner">
+      <strong>🌊 Ripple Effect Project</strong>
+      <div>
+        <a href="#about">About</a>
+        <a href="#what-we-do">What We Do</a>
+        <a href="#help">Help</a>
+      </div>
+    </div>
+  </nav>
+  <header class="hero">
+    <div class="hero-content">
+      <div class="ripple">🌊</div>
+      <h1>The Ripple Effect Project</h1>
+      <p>
+        Small acts of kindness can travel further than we ever see.
+      </p>
+      <a href="#about" class="button">Learn More</a>
+    </div>
+  </header>
+  <main>
+    <section id="about">
+      <h2>💙 What is it?</h2>
+      <p>
+        The Ripple Effect Project is a community kindness project based in
+        East Hants, Nova Scotia.
+      </p>
+      <p>
+        The idea is simple: one small act of kindness can create another,
+        and another, and another.
+      </p>
+      <p>
+        Sometimes people don't need something huge. They just need a reminder
+        that someone noticed them, cared about them, or wanted to make their
+        day a little easier.
+      </p>
+    </section>
+    <section id="what-we-do">
+      <h2>🌱 What we're doing</h2>
+      <p>
+        We're starting small and focusing on the things we can do right now.
+      </p>
+      <div class="cards">
+        <div class="card">
+          <div class="card-icon">🎒</div>
+          <h3>Kindness Bags</h3>
+          <p>
+            Small bags put together with useful and comforting items for
+            people who may need a little extra kindness.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-icon">📦</div>
+          <h3>The River Box</h3>
+          <p>
+            A little community box by the river where people can take
+            something, leave something, write in the book, or simply stop
+            for a moment.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="highlight">
+        <h2>🌊 That's the ripple.</h2>
+        <p>
+          One person helps another.
+          Then that person helps someone else.
+          Eventually, one little act doesn't feel so little anymore.
+        </p>
+      </div>
+    </section>
+    <section>
+      <h2>📍 Our Community</h2>
+      <p>
+        The Ripple Effect Project is based around East Hants, Nova Scotia,
+        with kindness reaching into surrounding communities, including areas
+        between Truro and Bedford.
+      </p>
+      <p>
+        We're starting here and seeing where the ripples take us.
+      </p>
+    </section>
+    <section id="help">
+      <h2>🤝 Want to help?</h2>
+      <p>
+        You don't have to do something huge to make a difference.
+      </p>
+      <ul class="help-list">
+        <li>🎁 Donate supplies</li>
+        <li>💵 Support the project</li>
+        <li>📣 Share the project</li>
+        <li>📦 Contribute to the River Box</li>
+        <li>💙 Do something kind for someone</li>
+        <li>🌊 Start your own ripple</li>
+      </ul>
+    </section>
+    <section>
+      <div class="highlight">
+        <h2>It starts small.</h2>
+        <p>
+          It starts with one person.
+          It starts with kindness.
+        </p>
+        <p>
+          <strong>One small act. One person. One ripple at a time. 🌊</strong>
+        </p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p><strong>The Ripple Effect Project 🌊</strong></p>
+    <p>East Hants, Nova Scotia</p>
+    <p>Small acts. Real people. Lasting ripples.</p>
+  </footer>
+</body>
+</html>
