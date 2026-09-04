@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kindness Bags | The Ripple Effect Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">🌊 The Ripple Effect Project</div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="kindness-bags.html">Kindness Bags</a>
+      <a href="river-box.html">River Box</a>
+      <a href="help.html">Help</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+  <!-- Hero -->
+  <header class="hero">
+    <div class="emoji">💙</div>
+    <h1>Kindness Bags</h1>
+    <p>
+      A small bag can carry more than just a few things.
+      Sometimes it carries a reminder that someone cares.
+    </p>
+  </header>
+  <!-- What Are They? -->
+  <section>
+    <h2>What are Kindness Bags?</h2>
+    <p class="intro">
+      Kindness Bags are small bags put together with useful things,
+      little comforts, and simple reminders of kindness.
+    </p>
+    <p>
+      The idea isn't to create something perfect or expensive.
+      It's about putting together a few things that might make someone's
+      day a little easier.
+    </p>
+    <p>
+      The contents can change depending on what is available and what
+      people may need.
+    </p>
+  </section>
+  <!-- What's Inside -->
+  <section>
+    <h2>What's inside?</h2>
+    <p>
+      There isn't one exact list. Each bag can be a little different.
+    </p>
+    <div class="cards">
+      <div class="card">
+        <div class="icon">🧴</div>
+        <h3>Personal Care</h3>
+        <p>
+          Simple personal care items that can be useful in everyday life.
+        </p>
+      </div>
+      <div class="card">
+        <div class="icon">🍪</div>
+        <h3>Small Snacks</h3>
+        <p>
+          Little snacks or treats that can add something comforting
+          to the bag.
+        </p>
+      </div>
+      <div class="card">
+        <div class="icon">🧦</div>
+        <h3>Practical Items</h3>
+        <p>
+          Small, useful things that someone might genuinely need.
+        </p>
+      </div>
+      <div class="card">
+        <div class="icon">💌</div>
+        <h3>A Little Kindness</h3>
+        <p>
+          Sometimes the smallest part of the bag is the part that
+          means the most: a note, message, or reminder that someone cares.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- Why It Matters -->
+  <section>
+    <h2>Why small things matter</h2>
+    <p>
+      You don't always know what somebody is going through.
+    </p>
+    <p>
+      Maybe they're having a rough week.
+      Maybe money is tight.
+      Maybe they're exhausted.
+      Maybe they just need one small thing to remind them they're not
+      completely invisible.
+    </p>
+    <p>
+      A Kindness Bag isn't meant to fix someone's problems.
+      It can't do that.
+    </p>
+    <p>
+      It's simply one small way of saying:
+      <strong>someone thought about you.</strong>
+    </p>
+    <div class="note">
+      <p>
+        That's what the Ripple Effect is about.
+        Small acts don't have to solve everything to still matter.
+      </p>
+    </div>
+  </section>
+  <!-- Help -->
+  <section>
+    <h2>Want to help?</h2>
+    <p>
+      Kindness Bags can grow through donated supplies, small contributions,
+      or people simply spreading the word.
+    </p>
+    <p>
+      You don't have to do something huge.
+      Even one useful item can become part of someone's bag.
+    </p>
+    <a href="help.html" class="button">
+      See How You Can Help
+    </a>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <p>
+      One small act. One person. One ripple at a time. 🌊
+    </p>
+    <p>
+      The Ripple Effect Project
+    </p>
+  </footer>
+</body>
+</html>
